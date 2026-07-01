@@ -1,0 +1,33 @@
+trade:
+  countdown-seconds: 5
+  minimum-items: 1
+  request-expiration-seconds: 60
+
+messages:
+  no-permission: "&cVoce nao tem permissao para usar este comando."
+  usage: "&cUse: /trocar <nick>"
+  player-invalid: "&cJogador offline ou invalido."
+  already-trading: "&cUm dos jogadores ja esta em uma troca."
+  request-sent: "&aVoce enviou uma solicitacao de troca para {player}."
+  request-received: "&eVoce recebeu um pedido de troca de {player}."
+  request-accepted-sender: "&a{player} aceitou a sua solicitacao de troca."
+  request-denied-sender: "&c{player} recusou sua solicitacao de troca."
+  request-denied-target: "&cVoce recusou a troca de {player}."
+  request-invalid: "&cSolicitacao expirada ou invalida."
+  request-expired-sender: "&cSua solicitacao de troca para {player} expirou."
+  request-expired-target: "&cA solicitacao de troca de {player} expirou."
+  button-accept: " [ACEITAR] "
+  button-deny: " [NEGAR] "
+  inventory-title: "&8Troca: {player1} e {player2}"
+  status-accepted: "&a{player} Aceitou"
+  status-waiting: "&c{player} Esperando..."
+  minimum-items: "&cColoque pelo menos {amount} item(ns) na sua area de troca."
+  offer-changed: "&cUm jogador alterou a oferta. Contagem cancelada."
+  countdown: "&eTroca sera concluida em &l{seconds}..."
+  countdown-cancelled: "&cContagem cancelada."
+  trade-completed: "&aTroca concluida com sucesso!"
+  trade-cancelled: "&cTroca cancelada. {reason}"
+  cancel-menu-closed: "Um jogador fechou o menu."
+  cancel-player-quit: "Um jogador desconectou."
+  cancel-server-stop: "O servidor foi recarregado ou fechado."
+  inventory-full: "&cSeu inventario estava cheio. Alguns itens cairam no chao."

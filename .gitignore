@@ -1,0 +1,21 @@
+# Maven
+target/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local/editor files
+*.log
+*.tmp
+
+# Modernize/local automation artifacts
+.github/modernize/

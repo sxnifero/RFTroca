@@ -1,0 +1,16 @@
+name: RFTroca
+version: '1.0'
+main: redefenix.troca.RFTrocaPlugin
+api-version: '1.21'
+author: sxnifero
+description: Sistema de trocas seguras entre jogadores.
+commands:
+  trocar:
+    description: "Inicia ou gerencia uma troca com outro jogador."
+    usage: "/trocar <nick>"
+    aliases: [trade, troca]
+    permission: rftroca.usar
+permissions:
+  rftroca.usar:
+    description: "Permite usar o sistema de trocas."
+    default: true
